@@ -2,7 +2,7 @@
 
 Create SANS Internet Storm Center module in Cisco SecureX module in Cisco SecureX.
 
-![image](img/dashboard.png)
+![image](docs/img/dashboard.png)
 
 The intent of the 'Infocon' is to reflect changes in malicious traffic and the possibility of disrupted connectivity. In particular important is the concept of "Change". Every host connected to the Internet is subject to some amount of traffic caused by worms and viruses. However, once a worm has been identified and the number of infected machines is no longer increasing, this traffic is not likely to cause any disruptions. The Infocon is intended to apply to the condition of the Internet infrastructure. We do not monitor particular nations or companies.
 
@@ -138,47 +138,47 @@ Documentation is available [here](https://isc.sans.edu/api/)
 
 Browser to [The SecureX module maker](https://ciscosecurity.github.io/tr-05-module-maker/) and open the JSON [SANS_Internet_Storm_Center_module_type.json](code/SANS_Internet_Storm_Center_module_type.json) from this githubby clicking on `Open JSON from File`.
 
-![image](img/upload_json.png)
+![image](docs/img/upload_json.png)
 
 Feel free to change the module title or the description if you want and then click on `Push JSON to TR`.
 
-![image](img/module_maker.png)
+![image](docs/img/module_maker.png)
 
 Enter your [Cisco SecureX API credential](https://securex.us.security.cisco.com/help/securex/topic/integration) and Region and click on `Push`
 
-![image](img/module_push.png)
+![image](docs/img/module_push.png)
 
 Make sure the module was deployed successfully. If not double check your API credential.
 
-![image](img/upload_module_success.png)
+![image](docs/img/upload_module_success.png)
 
 Now after a page refresh in your Cisco SecureX `Available Integration Modules` you should see the new module `Sans Internet Storm Center` available. Click on `+ New Module`
 
-![image](img/securex_module.png)
+![image](docs/img/securex_module.png)
 
 Add your SANS Internet Storm Center SecureX Relay module URL from Step 2 and click `Save`.
 
-![image](img/securex_module_config.png)
+![image](docs/img/securex_module_config.png)
 
 ## Step 5: Adding tile to dashboard
 
 You can create a new doashboard `+ Create Dashboard` or add the new tile to a existing one and click on `Save`.
 
-![image](img/dashboard_config.png)
+![image](docs/img/dashboard_config.png)
 
 If working, you should see something similar to this.
 
-![image](img/dashboard2.png)
+![image](docs/img/dashboard2.png)
 
 ## Additional features
 
 Get more information for a specific Port or IP on Sans Internet Storm Center
 
-![image](img/dashboard2port.png)
+![image](docs/img/dashboard2port.png)
 
-![image](img/dashboard2ip.png)
+![image](docs/img/dashboard2ip.png)
 
-![image](img/contextmenu2ip.png)
+![image](docs/img/contextmenu2ip.png)
 
 
 
