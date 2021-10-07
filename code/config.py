@@ -1,8 +1,6 @@
 import json
 import os
 
-from __version__ import VERSION
-
 
 class Config:
     settings = json.load(open('container_settings.json', 'r'))
